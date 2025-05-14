@@ -39,8 +39,8 @@ export default function Contact({ params: { id } }) {
       </h1>
 
       <div
-        ref={ref}
-        key={user?.id}
+        ref={ref} 
+        key={user.id}
         className={`relative w-1/2 h-[300px] flex items-center p-8 rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-300 ${
           darkMode 
             ? 'bg-gradient-to-br from-gray-900 to-gray-800 text-white' 
